@@ -1,4 +1,4 @@
-engine_indicator_light = 'green'
+engine_indicator_light = 'red blinking'
 fuel_level = 21000
 engine_temperature = 1200
 

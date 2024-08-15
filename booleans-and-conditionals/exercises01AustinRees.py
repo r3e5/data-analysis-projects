@@ -14,3 +14,5 @@ elif engine_indicator_light == "green blinking":
   print("engines are preparing to start")
 else:
   print("engines are off")
+
+  # returns "engines are off"
