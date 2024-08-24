@@ -1,7 +1,7 @@
 engine_indicator_light = "red blinking"
 space_suits_on = True
 shuttle_cabin_ready = True
-crew_status = space_suits_on and shuttle_cabin_ready
+crewStatus = space_suits_on and shuttle_cabin_ready
 computerStatusCode = 200
 shuttleSpeed = 15000
 
@@ -31,4 +31,4 @@ else:
     print("Stable speed")
 # 4) PREDICT: Do the code blocks shown in the Section D produce the same result?
 
-print("Yes")
+# print("Yes" or "No")
