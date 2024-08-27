@@ -1,2 +1,4 @@
-print(type("17"))
-print(type("3.2"))
+day = 'thursday'
+day = 32.5
+day = 19
+print(day)
