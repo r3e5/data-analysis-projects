@@ -18,8 +18,8 @@ print(text[12:24])
 
 # 1. Print 1 letter per line.
 whole_word = len(word)-1
-for char in range(whole_word, -1, -1):
-    print(word[char])
+# for char in range(whole_word, -1, -1):
+#     print(word[char])
 
 # 2. Refactor the code to use the accumulator pattern to build up and print the reversed string. 
 # For example, if given 'good', print 'doog' on one line.
@@ -30,7 +30,7 @@ print(reverse_word)
 
 # 3. Refactor the code to print a combination of the original and reversed string. 
 # For example, given 'tomato', print 'tomatootamot'. (If you want to be fancy, print 'tomato | otamot').
-reverse_word = ''
-for char in range(whole_word, -1, -1):
-    reverse_word += word[char]
-print(word, "|",reverse_word)
+# reverse_word = ''
+# for char in range(whole_word, -1, -1):
+#     reverse_word += word[char]
+# print(word, "|",reverse_word)
