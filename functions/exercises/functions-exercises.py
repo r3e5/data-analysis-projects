@@ -1,14 +1,14 @@
 # Part 1 A -- Make a Line
-def make_line(size):
-    line = '#'*size
+def make_line(size, symbol):
+    line = symbol*size
     return line
 
 # Part 1 B -- Make a Square
 # create a function using your make_line function to code a square
-def make_square(size):
+def make_square(size, symbol):
     square = ''
     for side in range(size):
-        square +=(make_line(size)) + "\n"
+        square +=(make_line(size, symbol)) + "\n"
     return square
 
 # Part 1 C -- Make a Rectangle
@@ -28,7 +28,7 @@ def make_downward_stair(height):
 # Part 2 B -- Make Space-Line 
 def make_space_line(numSpaces, numChar):
     for space in range(numSpaces):
-        spaces = (" "*numSpaces)
+        spaces = ("_"*numSpaces)
 
     for line in range(numChar):
         lines = (make_line(numChar))
@@ -54,8 +54,16 @@ def make_diamond(height):
     
     return diamond
 
-print(make_diamond(3))
+# def make_diamond(height):
+#    diamond = ""
+#    triangle = make_triangle(height)
+#    diamond += triangle[:-1]
+#    for i in range(len(triangle)-1, -1, -1):
+#       diamond += triangle[i]
+#    return diamond
 
+# print(make_diamond(13))
+print(make_square(5,'@'))
 
 
 
